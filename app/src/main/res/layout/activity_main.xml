@@ -1,0 +1,281 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.indoelection.activities.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+        <ImageView
+            android:id="@+id/blur_top"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:scaleType="centerCrop"
+           />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#66000000"
+            />
+
+        <LinearLayout
+            android:id="@+id/header_foto_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content">
+
+                <com.indoelection.component.CircularImageView
+                    android:id="@+id/capres1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/prabowo"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    app:border="true"
+                    app:border_color="@android:color/white"
+                    app:border_width="2dp"
+                    app:shadow="true"
+                   />
+
+                <com.indoelection.component.BounvenoTextView
+                    android:id="@+id/capres1_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:layout_below="@+id/capres1"
+                    android:text="Prabowo"/>
+
+
+                <com.indoelection.component.BounvenoTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/white"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:layout_below="@+id/capres1_text"
+                    android:text="Calon Presiden"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="100dp"
+                android:background="#66ffffff"
+                android:layout_gravity="center"
+                />
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content">
+
+                <com.indoelection.component.CircularImageView
+                    android:id="@+id/cawapres1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/hatta"
+                    app:border="true"
+                    app:border_color="@android:color/white"
+                    app:border_width="2dp"
+                    app:shadow="true"
+                    />
+
+                <com.indoelection.component.BounvenoTextView
+                    android:id="@+id/cawapres1_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:layout_below="@+id/cawapres1"
+                    android:text="Hatta Rajasa"/>
+
+                <com.indoelection.component.BounvenoTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/white"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:layout_below="@+id/cawapres1_text"
+                    android:text="Calon Wakil Presiden"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:text="Detail"/>
+
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+
+            <ImageView
+                android:id="@+id/blur_down"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:scaleType="centerCrop"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#66000000"
+                />
+
+            <LinearLayout
+                android:id="@+id/header_foto_down"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content">
+
+                    <com.indoelection.component.CircularImageView
+                        android:id="@+id/capres2"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/jokowi"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20dp"
+                        app:border="true"
+                        app:border_color="@android:color/white"
+                        app:border_width="2dp"
+                        app:shadow="true"
+                        />
+
+                    <com.indoelection.component.BounvenoTextView
+                        android:id="@+id/capres2_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/white"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:layout_below="@+id/capres2"
+                        android:text="Joko Widodo"/>
+
+
+                    <com.indoelection.component.BounvenoTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:textColor="@android:color/white"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:layout_below="@+id/capres2_text"
+                        android:text="Calon Presiden"/>
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="100dp"
+                    android:background="#66ffffff"
+                    android:layout_gravity="center"
+                    />
+
+                <RelativeLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content">
+
+                    <com.indoelection.component.CircularImageView
+                        android:id="@+id/cawapres2"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/kalla"
+                        app:border="true"
+                        app:border_color="@android:color/white"
+                        app:border_width="2dp"
+                        app:shadow="true"
+                        />
+
+                    <com.indoelection.component.BounvenoTextView
+                        android:id="@+id/cawapres2_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/white"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:layout_below="@+id/cawapres2"
+                        android:text="Jusuf Kalla"/>
+
+                    <com.indoelection.component.BounvenoTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:textColor="@android:color/white"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:layout_below="@+id/cawapres2_text"
+                        android:text="Calon Wakil Presiden"/>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:text="Detail"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+

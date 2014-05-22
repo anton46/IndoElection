@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/anton/Documents/WORK/ANDROID/PROJECT/wego-new/IndoElection/app/build/pre-dexed/debug/support-v4-19.0.1-e90f7c2600a02303d7ba2703e4b12c928def081a.jar"
+        jar="/Users/anton/Documents/adt-bundle-mac-x86_64-20130514/sdk/extras/android/m2repository/com/android/support/support-v4/19.0.1/support-v4-19.0.1.jar"
+        jumboMode="false"
+        revision="19.0.3"
+        sha1="587da9a481ffd341d2fa091704489b89845ddacd"/>
+    <item
+        dex="/Users/anton/Documents/WORK/ANDROID/PROJECT/wego-new/IndoElection/app/build/pre-dexed/debug/library-2.4.0-ec63668db665a6c33dee0540a2dcc54ccd3ba3b5.jar"
+        jar="/Users/anton/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="19.0.3"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb"/>
+
+</pre-dex-items>
